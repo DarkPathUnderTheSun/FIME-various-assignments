@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+form{
+  padding: 60px;
+  max-width: 400px;
+  background-color: #E7E7E7;
+  margin: 0 auto;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: horizontal; 
+}
+
+/*form button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}*/
+
+textarea { resize: none; }
+
+button{
+    display: block;
+    background-color: #0095eb;
+    padding: 10px 45px 10px 45px;
+    border: 25;
+    font-size: 1em;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+}
+
+ label {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+
+}
+.form_block{
+    padding: 10px 45px 10px 45px;
+    border:0;
+    border-color: black;
+    
+}
+.buttonS{
+    display:block;
+    border:25;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+
+    background-color: #0095eb; 
+
+}
+form button:hover{
+    background-color:#046193;
+
+}
+.buttonS:hover{
+    background-color: #046193;
+}
+
+input[type=text]{
+    margin: 8px 0;
+    -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: 1px solid black; 
+  transition: 0.5s;
+  outline:none;
+  resize: horizontal; 
+}
+
+h2{
+    font-family: 'EB Garamond', serif;
+    color:slategray;
+    font-size:larger;
+    
+}
+tbody{
+  font-family: "Roboto", sans-serif;
+
+}
+td input[type="submit"]{
+  background-color: #0095eb;
+  display: block;
+  color: #E7E7E7;
+  font-size: large;
+  
+}
+.parce:hover{
+  background-color: #046193;
+}
+
+  
+
+
+ 
