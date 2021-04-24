@@ -52,13 +52,13 @@
 //send info to database
 include "config.php";
 if (isset($_POST['Submit'])) {
-  $item_id = $_POST['item_id'];
-  $a_quien = $_POST['a_quien'];
-  $location = $_POST['location'];
-  $fecha_prestamo = $_POST['fecha_prestamo'];
-  $result = mysqli_query($cser, "INSERT INTO example.prestamos(item_id,a_quien,fecha_prestamo) VALUES('$item_id','$a_quien','$fecha_prestamo')");
-  $update = mysqli_query($cser, "UPDATE example.tools SET location='$location', who_has_it='$a_quien' WHERE item_id='$item_id'");
-  echo "<font color='green'>Prestamo agregado a base de datos.</font>";
+    $item_id = $_POST['item_id'];
+    $a_quien = $_POST['a_quien'];
+    $location = $_POST['location'];
+    $fecha_prestamo = $_POST['fecha_prestamo'];
+    $result = mysqli_query($cser, "INSERT INTO example.prestamos(item_id,a_quien,fecha_prestamo) VALUES('$item_id','$a_quien','$fecha_prestamo')");
+    $update = mysqli_query($cser, "UPDATE example.tools SET location='$location', who_has_it='$a_quien' WHERE item_id='$item_id'");
+    echo "<font color='green'>Prestamo agregado a base de datos.</font>";
 }
 ?>
 
