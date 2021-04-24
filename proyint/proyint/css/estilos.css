@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    padding: 0.5em;
+    text-align: center;
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+
+    color:ghostwhite;
+    font-style:oblique;
+    font-size: xx-large;
+
+}
+
+td{
+    font-family: 'Cairo', sans-serif;
+    color:ghostwhite;
+    font-size: 25px;
+
+    
+    
+}
+
+body{
+    /*background-image: url("floatp.png");*/
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* BACKGROUND */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* LINKS */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* HOVER */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* ACTIVO O SELECTED */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  p{
+      color: black;
+      font-family: 'Cairo', sans-serif;
+      size: 88px
+      ;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400);
+form{
+  padding: 60px;
+  max-width: 400px;
+  background-color: #E7E7E7;
+  margin: 0 auto;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: horizontal; 
+}
+
+form button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}
+form button:hover{
+	background-color: #046193;
+}
+textarea { resize: none; }
