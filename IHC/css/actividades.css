@@ -1,0 +1,124 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-image: url("../img/pasto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100vh - 70px);
+    margin: 0px;
+}
+
+.menu{
+    width: calc(100vw - 40px);
+    height: 50px;
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu label{
+    color: white;
+    height: 100%;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu.exploracion label{
+    background-color: #31EB51;
+}
+
+.menu.lenguaje label{
+    background-color: #F26527;
+}
+
+
+.menu.matematicas label{
+    background-color: #D92DDB;
+}
+
+
+.menu a{
+    font-size: xx-large;
+}
+
+.menu.exploracion a{
+    color: #31EB51;
+}
+
+.menu.lenguaje a{
+    color: #F26527;
+}
+
+.menu.matematicas a{
+    color: #D92DDB;
+}
+
+.menu img{
+    cursor: pointer;
+    width: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(calc(33vw - 2rem), 1fr));
+    grid-auto-rows: 200px;
+    grid-gap: 1rem;
+}
+
+.card{
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    cursor: pointer;
+}
+
+.matematicas .card{
+    border: 1px solid #D92DDB;
+}
+
+.lenguaje .card{
+    border: 1px solid #F26527;
+}
+
+.exploracion .card{
+    border: 1px solid #31EB51;
+}
+
+.card img{
+    height: 80%;
+}
+
+@media (max-width: 830px) {
+    .contenedor {
+        flex-direction: column;
+        justify-content: normal;
+        margin: 20px 0px 100px 0px;
+        height: auto;
+    }
+
+    .cards{
+        grid-template-columns: repeat(1, minmax(calc(97vw - 1rem), 0fr));
+    }
+  }

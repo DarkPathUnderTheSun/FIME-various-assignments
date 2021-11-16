@@ -1,0 +1,51 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("../img/childrens.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+} 
+
+.contenedor img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.contenedor input{
+    margin-bottom: 20px;
+    border: none;
+    caret-color: #278DF2;
+    border-bottom: 1px solid lightgray;
+    height: 30px;
+}
+
+.zubmit {
+    color: white;
+    background-color: #278DF2;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 177px;
+    height: 30px;
+}

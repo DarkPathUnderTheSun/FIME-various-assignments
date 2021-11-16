@@ -1,0 +1,104 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-image: url("../img/pasto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor button{
+    color: white;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contenedor{
+    width: 97vw;
+    height: calc(100vh - 70px);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contenedor img{
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu{
+    width: calc(100vw - 40px);
+    height: 50px;
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul, .menu > img{
+    background-color: #278df2f2;
+    padding: 2px 20px;
+    border-radius: 10px;
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.menu ul img{
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.menu > img{
+    margin-left: 20px;
+    height: 40px;
+}
+
+.lenguaje button{
+    background-color: #F26527;
+}
+
+.matematicas button{
+    background-color: #B92DDB;
+}
+
+.exploracion button{
+    background-color: #1acd39;
+}
+
+@media (max-width: 830px) {
+    .contenedor {
+        flex-direction: column;
+        justify-content: normal;
+        margin: 0px 0px 60px 0px;
+        height: auto;
+    }
+  }

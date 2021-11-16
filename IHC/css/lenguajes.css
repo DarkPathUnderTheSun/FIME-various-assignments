@@ -1,0 +1,189 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-image: url("../img/pasto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-direction: column;
+    width: calc(100% - 40px);
+    height: calc(100vh - 110px);
+    margin: 0px;
+    padding: 20px;
+}
+
+.menu{
+    width: calc(100vw - 40px);
+    height: 50px;
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu label{
+    color: white;
+    height: 100%;
+    background-color: #F26527;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu.exploracion label{
+    background-color: #31EB51;
+}
+
+.menu.lenguaje label{
+    background-color: #F26527;
+}
+
+.menu.matematicas label{
+    background-color: #D92DDB;
+}
+
+
+.menu a{
+    font-size: xx-large;
+}
+
+.menu.exploracion a{
+    color: #31EB51;
+}
+
+.menu.lenguaje a{
+    color: #F26527;
+}
+
+.menu.matematicas a{
+    color: #D92DDB;
+}
+
+.contenedor p i{
+    color: blueviolet;
+}
+
+.contenedor ul{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px;
+    position: relative;
+}
+
+.contenedor ul li i{
+    font-size: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+h4{
+    margin: 0px;
+}
+
+.center-flex{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+@media (max-width: 830px) {
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0px 100px 0px;
+        height: auto;
+    }
+}
+
+canvas {
+    width: 325px;
+    height: 325px;
+    /*background-color: black;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    touch-action: none;
+}
+
+.contenedor.lenguaje canvas{
+    background: url("../img/leon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contenedor.matematicas canvas{
+    background: url("../img/tren_completo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contenedor.exploracion canvas{
+    background: url("../img/nubes.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.active{
+    background-color: lightgrey;
+}
+
+#refrescar{
+    position: absolute;
+    top: -350px;
+    right: 0px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.zubmitLen {
+    color: white;
+    height: 100%;
+    background-color: #F26527;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+}
+.zubmitMat {
+    color: white;
+    height: 100%;
+    background-color: #D92DDB;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+}
+.zubmitExp {
+    color: white;
+    height: 100%;
+    background-color: #31EB51;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+}
