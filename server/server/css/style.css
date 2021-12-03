@@ -1,0 +1,103 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#fff;  
+    font-family: 'Arial';
+}  
+ul li .image {
+    padding: 36px 22px 50px 150px;
+    background-position: top right;
+    background-image:  url(../resources/logo_brembo.jpg);
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+li {
+    display: inline;
+    vertical-align: center;
+    line-height: 30px;
+    padding-left: 15px;
+}
+.login{  
+        width: 380px;  
+        overflow: hidden;  
+        margin: auto;   
+        padding: 50px;  
+        background: #333;  
+        border-radius: 5px ;  
+        justify-content: center;
+        background-image: url(../resources/carbonfiber.jpg);
+}
+.center{
+    margin:0 auto;
+    display:block;
+}
+h2{  
+    text-align: center;  
+    color: #000;  
+    padding: 20px;  
+}  
+label{  
+    color: #fff;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: #e80000;
+    font-weight: bolder;
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+
+a {
+    float: center;
+    background-color: #e80000;
+    border-radius: 5px;
+    color: #fff;   
+}
+
+.temperatura{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;    
+    background: #333;  
+    background-image: url(../resources/carbonfiber.jpg);
+    border-radius: 5px ;  
+    justify-content: center;
+    padding: 50px;
+}
+form {
+    text-align: center;
+  }
+h3{  
+    text-align: center;  
+    color: #000000;  
+    padding: 20px;  
+} 
